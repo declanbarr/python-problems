@@ -7,12 +7,11 @@ i = 20
 numberFound = False
 
 while numberFound != True:
-    for x in range(1, 21):
-        if i % x == 0:
-            print(i)
-            numberFound = True
-        else:
-            i = i + 1
-            x = 1
-        
+    for i in range(1, 1000000000000, 1):
+        for x in range(1, 21):
+            print("i is :", i, "x is :", x)
+            if i % x == 0:
+                numberFound = True
+                
+            
 print(i)
