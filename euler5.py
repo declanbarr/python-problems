@@ -14,6 +14,8 @@ for i in range(232790000, 232793000, 20): #i can increment in 20 as all the numb
                     break
             else:
                 break
-        break            
-            
+        break
+    if numberFound == True:
+        break
+               
 print(i)
