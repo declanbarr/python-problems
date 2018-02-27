@@ -1,8 +1,6 @@
 # Declan Barr 13 Feb 2018
 # Euler problem 5
 
-
-
 numberFound = False
 
 while numberFound != True:
@@ -11,6 +9,8 @@ while numberFound != True:
             print("i is :", i, "x is :", x)
             if i % x == 0:
                 numberFound = True
+            else:
+                break
                 
             
 print(i)
