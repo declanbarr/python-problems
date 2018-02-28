@@ -18,6 +18,5 @@ while numberFound == False:
         else:
             i = i + 2520    # i can increment in 2520 as this is the lcm of 1 to 10 (see reference above)
             break
-    x = x + 1
                
 print(i)
