@@ -1,4 +1,4 @@
-# python-problems
+# Python Problems
 
 * Exercise 1 = fib.py
 * Exercise 2 = fibname.py
