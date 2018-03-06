@@ -1,4 +1,5 @@
-# Python Problems for Programming and Scripting
+# Python Problems
+My Python exercises for Programming and Scripting
 
 * Exercise 1 = fib.py
 * Exercise 2 = fibname.py
