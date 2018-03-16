@@ -6,3 +6,4 @@ My Python exercises for Programming and Scripting
 * Exercise 3 = collatz.py
 * Exercise 4 = euler5.py
 * Exercise 5 = irisdata.py
+* Exercise 6 = factorial.py
