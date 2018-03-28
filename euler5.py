@@ -3,7 +3,6 @@
 # Idea to set i to an initial value of 2520 and incrementing by 2520 found on
 #  https://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution
 
-
 numberFound = False
 i = 2520  # this is the number that will be divided by numbers from 11 to 21
           # it is the lcm of the numbers 1 to 10  (see reference above)
@@ -12,8 +11,7 @@ while numberFound == False:
                             # eg 20 = 2 * 10 therefore if a number is divisable by 20
                             # it is also divisable by 2 and 10
         if i % x == 0:
-            x = x + 1
-            if  x == 21:    # If number = 21 at this point it means that i % 20 == 0 was true
+            if x == 20:   
                 numberFound = True
         else:
             i = i + 2520    # i can increment in 2520 as this is the lcm of 1 to 10 (see reference above)
