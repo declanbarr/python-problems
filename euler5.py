@@ -5,7 +5,7 @@
 
 numberFound = False
 
-for i in range(2520, 10000000000000, 2520)
+for i in range(2520, 10000000000000, 2520):
     for x in range(11, 21): # numbers from 1 to 10 don't need to be checked as numbers 11 to 20 are multiples of these
                             # eg 20 = 2 * 10 therefore if a number is divisable by 20
                             # it is also divisable by 2 and 10
