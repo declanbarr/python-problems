@@ -4,6 +4,7 @@
 def factorial(factstart):
     y = factstart
     for x in range(factstart -1, 1, -1):
+    # For loop increments down
         y = x * y
     return y
 
