@@ -4,17 +4,15 @@
 #  https://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution
 
 numberFound = False
-i = 2520  # this is the number that will be divided by numbers from 11 to 21
-          # it is the lcm of the numbers 1 to 10  (see reference above)
-while numberFound == False:
+
+for i in range(2520, 10000000000000, 2520)
     for x in range(11, 21): # numbers from 1 to 10 don't need to be checked as numbers 11 to 20 are multiples of these
                             # eg 20 = 2 * 10 therefore if a number is divisable by 20
                             # it is also divisable by 2 and 10
-        if i % x == 0:
+        if i % x == 0:      
             if x == 20:   
                 numberFound = True
-        else:
-            i = i + 2520    # i can increment in 2520 as this is the lcm of 1 to 10 (see reference above)
-            break
+    if numberFound == True:
+        break
                
 print(i)
