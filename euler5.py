@@ -12,6 +12,8 @@ for i in range(2520, 10000000000000, 2520):
         if i % x == 0:      
             if x == 20:   
                 numberFound = True
+        else:
+            break
     if numberFound == True:
         break
                
