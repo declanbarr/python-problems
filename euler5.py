@@ -20,4 +20,4 @@ for i in range(2520, twentyFact, 2520):
     if numberFound == True: 
         break # This breaks out of the "for i" loop
                
-print(i)
+print("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is ", i)
