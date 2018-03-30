@@ -1,7 +1,8 @@
 # Declan Barr 13 Feb 2018
 # Euler problem 5 from Project Euler (https://projecteuler.net/problem=5)
 # Idea to set i to an initial value of 2520 and incrementing by 2520 found on
-#  https://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution
+# https://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution
+
 import math
 twentyFact = math.factorial(20)  # This will be used as the upper bound for the "For i" loop
 
