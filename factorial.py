@@ -5,7 +5,8 @@ def factorial(factstart):
     factAns = factstart
     for x in range(factstart -1, 1, -1):
     # For loop increments down
-        factAns = x * factAns
+        factAns = factAns * x 
+        
     return factAns
 
 print("The factorial of 5 is : ", factorial(5))
