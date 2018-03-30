@@ -17,7 +17,7 @@ for i in range(2520, twentyFact, 2520):
             if x == 20:   
                 numberFound = True
         else:
-            break # This breaks out of the "for x loop
+            break # This breaks out of the "for x" loop
     if numberFound == True: 
         break # This breaks out of the "for i" loop
                
