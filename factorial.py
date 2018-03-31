@@ -2,12 +2,12 @@
 # Script that uses a function to calculate the factorial of a number
 
 def factorial(factstart):
-     def factorial(factstart):
-     for x in range(factstart, 1, -1):
+    def factorial(factstart):
+    for x in range(factstart, 1, -1):
         print(x)
-         x = x * (x - 1)
+        x = x * (x - 1)
         print(x)
-     return x
+    return x
  
 
 
