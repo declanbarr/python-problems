@@ -3,10 +3,9 @@
 
 def factorial(factstart):
     for x in range(factstart, 1, -1):
-        print(x)
-        x = x * (x - 1)
-        print(x)
-    return x
+        factAns = x * (x - 1)
+        print(factAns)
+    return factAns
  
 print("The factorial of 5 is : ", factorial(5))
 print("The factorial of 7 is : ", factorial(7))
