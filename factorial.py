@@ -2,9 +2,10 @@
 # Script that uses a function to calculate the factorial of a number
 
 def factorial(factstart):
-    for x in range(factstart, 1, -1):
-        factAns = x * (x - 1)
-        print(factAns)
+    factAns = factstart
+    for x in range(factstart -1, 1, -1):
+        # For loop increments down
+        factAns = factAns * x        
     return factAns
  
 print("The factorial of 5 is : ", factorial(5))
